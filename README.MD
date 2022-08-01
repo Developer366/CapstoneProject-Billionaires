@@ -25,21 +25,21 @@ For the Google Capstone project, I decided to do data analysis on
 ![noDuplicates](Images/DataCleaning/NoDuplicateFound.PNG)
 
 ## Created new Net Worth Column:
-![NetWorth](Images\DataCleaning\NetWorthColumn.PNG)
+![NetWorth](Images/DataCleaning/NetWorthColumn.PNG)
 
 ## Blanks in age:
 I noticed that there were some missing values for the age column. The reason for the missing age values was because Forbes took entire families netwroth into account as one person/row.
 
-![BlanksInAge](Images\DataCleaning\FamilyGroupNoAge.PNG)
+![BlanksInAge](Images/DataCleaning/FamilyGroupNoAge.PNG)
 
 Added age to some of the blanks calcualted based on birth day
 
-![AgeFormula](Images\DataCleaning\CalcAge.PNG)
+![AgeFormula](Images/DataCleaning/CalcAge.PNG)
 
 ## Changed Sources of Income to be more consistant
 
-![airline](Images\DataCleaning\airline-airlines.PNG)
-![e-commerce](Images\DataCleaning\e-commerce.PNG)
+![airline](Images/DataCleaning/airline-airlines.PNG)
+![e-commerce](Images/DataCleaning/e-commerce.PNG)
 
 <br> <br> <br>
 
@@ -54,7 +54,7 @@ forbes_data <- read.csv("forbes_2022_billionaires.csv")
 `
 summary(forbes_data)
 `
-![alt text](Images\graphs-analysis\age_stats.PNG)
+![alt text](Images/graphs-analysis/age_stats.PNG)
 
 The youngest in billionaire in the year 2022 is 19, and the oldest Billionaire is 100. The average age of all the billionaires is: 64. <br><br> 
 
