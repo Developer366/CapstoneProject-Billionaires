@@ -22,7 +22,7 @@ For the Google Capstone project, I decided to do data analysis on
 3. Added a Net worth Column that shows how much billions the person has shown in whole numbers
 
 ## Checked for Duplicates in Excel:
-![noDuplicates](Images\DataCleaning\NoDuplicateFound.PNG)
+![noDuplicates](Images/DataCleaning/NoDuplicateFound.PNG)
 
 ## Created new Net Worth Column:
 ![NetWorth](Images\DataCleaning\NetWorthColumn.PNG)
