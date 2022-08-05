@@ -58,6 +58,13 @@ summary(forbes_data)
 
 The youngest in billionaire in the year 2022 is 19, and the oldest Billionaire is 100. The average age of all the billionaires is: 64. <br><br> 
 
+## Billionaire's Net Worth and their Age
+`
+ggplot(data = forbes_data, mapping = aes(x = age, y = NetWorth)) +
+  geom_point() + geom_point(colour = "blue") + ggtitle("Billionaire's Net Worth (in billions) and Age")
+`
+![alt text](Images/graphs-analysis/NetWorth-Age-Scatter.png)
+
 ## *Top 5 youngest and oldest Billionaires*
 
 <br><br><br>
@@ -66,6 +73,6 @@ The youngest in billionaire in the year 2022 is 19, and the oldest Billionaire i
 
 # Project References:
 
-  - https://studentwork.prattsi.org/infovis/labs/worlds-billionaires/
+- https://studentwork.prattsi.org/infovis/labs/worlds-billionaires/
 
 - https://www.forbes.com/billionaires/
